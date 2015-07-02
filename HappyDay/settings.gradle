@@ -1,0 +1,2 @@
+include ':app', ':WeiboSdk2'
+project(':WeiboSdk2').projectDir = new File('WeiboSdk')
