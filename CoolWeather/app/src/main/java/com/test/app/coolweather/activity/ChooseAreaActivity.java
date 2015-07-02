@@ -70,6 +70,7 @@ public class ChooseAreaActivity extends Activity {
         listView.setAdapter(adapter);
         coolWeatherDB = CoolWeatherDB.getInstance(this); // 为什么需要这一行的代码
 
+
         is_from_weather_activity = getIntent().getBooleanExtra("from_weather_activity", false);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
